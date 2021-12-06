@@ -1,0 +1,11 @@
+{
+  "AppSyncApiName": "pensionforanu",
+  "DynamoDBBillingMode": "PAY_PER_REQUEST",
+  "DynamoDBEnableServerSideEncryption": false,
+  "AuthCognitoUserPoolId": {
+    "Fn::GetAtt": [
+      "authpensionforanu43308522",
+      "Outputs.UserPoolId"
+    ]
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-pensionforanu-dev-112228-authRole",
+      "UnauthRoleArn": "arn:aws:iam::040289817041:role/amplify-pensionforanu-dev-112228-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::040289817041:role/amplify-pensionforanu-dev-112228-authRole",
+      "Region": "ap-northeast-2",
+      "DeploymentBucketName": "amplify-pensionforanu-dev-112228-deployment",
+      "UnauthRoleName": "amplify-pensionforanu-dev-112228-unauthRole",
+      "StackName": "amplify-pensionforanu-dev-112228",
+      "StackId": "arn:aws:cloudformation:ap-northeast-2:040289817041:stack/amplify-pensionforanu-dev-112228/5c9a2d70-563b-11ec-afed-024ba6091dfa",
+      "AmplifyAppId": "d2a8hcuyarv2o"
+    },
+    "categories": {
+      "auth": {
+        "pensionforanu43308522": {}
+      }
+    }
+  }
+}

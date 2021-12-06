@@ -1,0 +1,13 @@
+type Employee @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  Emp_id: Int
+  Emp_name: String
+  Join_date: AWSDate
+  No_work_days: Int
+  No_Work_month: Int
+  Avg_Annual_Sal: Int
+  Avg_sal_thrMon: Int
+  Pension_curr_month: Int
+  Accumulated_pension: Int
+  pension_holder: Boolean
+}
